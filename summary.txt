@@ -1,0 +1,6 @@
+tumours: 569 (212 malignant, 357 benign); features tested: 30
+significant at FDR 0.05 (BH): 27 / 30
+significant after Bonferroni at 0.05: 26 / 30
+large effect (FDR-significant and AUC >= 0.8 or <= 0.20): 15
+label-permutation null (200 shuffles): mean FDR-significant features = 0.44, max = 20, shuffles with any hit = 6.5%
+feature pairs with |Spearman rho| > 0.9: 26 of 435

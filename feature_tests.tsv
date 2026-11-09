@@ -1,0 +1,31 @@
+feature	median_malignant	median_benign	AUC	AUC_lo95	AUC_hi95	p	q_BH	p_bonferroni	direction	effect_size_AUC	significant_FDR	large_effect
+worst perimeter	138	86.92	0.9755	0.9636	0.9855	2.583e-80	7.749e-79	7.749e-79	higher in malignant	0.9755	True	True
+worst radius	20.59	13.35	0.9704	0.9569	0.9815	1.136e-78	1.703e-77	3.407e-77	higher in malignant	0.9704	True	True
+worst area	1303	547.4	0.9698	0.9562	0.9816	1.803e-78	1.803e-77	5.41e-77	higher in malignant	0.9698	True	True
+worst concave points	0.182	0.07431	0.9667	0.9518	0.98	1.864e-77	1.398e-76	5.592e-76	higher in malignant	0.9667	True	True
+mean concave points	0.08628	0.02344	0.9644	0.9497	0.9774	1.006e-76	6.038e-76	3.019e-75	higher in malignant	0.9644	True	True
+mean perimeter	114.2	78.18	0.9469	0.9266	0.9639	3.554e-71	1.777e-70	1.066e-69	higher in malignant	0.9469	True	True
+mean area	932	458.4	0.9383	0.9167	0.9577	1.54e-68	6.599e-68	4.619e-67	higher in malignant	0.9383	True	True
+mean concavity	0.1513	0.03709	0.9378	0.9161	0.9556	2.165e-68	8.117e-68	6.494e-67	higher in malignant	0.9378	True	True
+mean radius	17.33	12.2	0.9375	0.9151	0.957	2.693e-68	8.976e-68	8.079e-67	higher in malignant	0.9375	True	True
+area error	58.45	19.63	0.9264	0.9031	0.9475	5.768e-65	1.73e-64	1.73e-63	higher in malignant	0.9264	True	True
+worst concavity	0.4049	0.1412	0.9214	0.8966	0.9435	1.762e-63	4.805e-63	5.285e-62	higher in malignant	0.9214	True	True
+perimeter error	3.679	1.851	0.8764	0.8455	0.9063	5.099e-51	1.275e-50	1.53e-49	higher in malignant	0.8764	True	True
+radius error	0.5472	0.2575	0.8683	0.8378	0.8991	6.217e-49	1.435e-48	1.865e-47	higher in malignant	0.8683	True	True
+mean compactness	0.1323	0.07529	0.8638	0.8312	0.8942	8.952e-48	1.918e-47	2.686e-46	higher in malignant	0.8638	True	True
+worst compactness	0.3564	0.1698	0.8623	0.8309	0.8925	2.116e-47	4.231e-47	6.347e-46	higher in malignant	0.8623	True	True
+concave points error	0.01421	0.009061	0.7918	0.7524	0.8282	2.371e-31	4.445e-31	7.113e-30	higher in malignant	0.7918	True	False
+worst texture	28.95	22.82	0.7846	0.747	0.8209	6.518e-30	1.15e-29	1.955e-28	higher in malignant	0.7846	True	False
+concavity error	0.03713	0.0184	0.7808	0.7425	0.8179	3.676e-29	6.126e-29	1.103e-27	higher in malignant	0.7808	True	False
+mean texture	21.46	17.39	0.7758	0.7354	0.8136	3.429e-28	5.414e-28	1.029e-26	higher in malignant	0.7758	True	False
+worst smoothness	0.1434	0.1254	0.7541	0.7114	0.793	3.638e-24	5.457e-24	1.091e-22	higher in malignant	0.7541	True	False
+worst symmetry	0.3103	0.2687	0.7369	0.6937	0.7784	3.151e-21	4.502e-21	9.454e-20	higher in malignant	0.7369	True	False
+compactness error	0.02859	0.01631	0.7273	0.6852	0.7699	1.168e-19	1.593e-19	3.504e-18	higher in malignant	0.7273	True	False
+mean smoothness	0.1022	0.09076	0.722	0.6822	0.7628	7.793e-19	1.016e-18	2.338e-17	higher in malignant	0.722	True	False
+mean symmetry	0.1899	0.1714	0.6986	0.6528	0.7401	2.268e-15	2.835e-15	6.804e-14	higher in malignant	0.6986	True	False
+worst fractal dimension	0.0876	0.07712	0.686	0.6373	0.7299	1.144e-13	1.373e-13	3.433e-12	higher in malignant	0.686	True	False
+fractal dimension error	0.003739	0.002808	0.6203	0.5738	0.6667	1.572e-06	1.814e-06	4.716e-05	higher in malignant	0.6203	True	False
+symmetry error	0.0177	0.01909	0.4449	0.3976	0.494	0.02784	0.03093	0.8351	lower in malignant	0.5551	True	False
+smoothness error	0.006209	0.00653	0.4688	0.42	0.5159	0.2136	0.2289	1	lower in malignant	0.5312	False	False
+mean fractal dimension	0.06158	0.06154	0.4845	0.4334	0.5363	0.5372	0.5557	1	lower in malignant	0.5155	False	False
+texture error	1.103	1.108	0.5116	0.4626	0.5587	0.6437	0.6437	1	higher in malignant	0.5116	False	False
